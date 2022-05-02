@@ -1,6 +1,7 @@
 import React from 'react';
+import './login.scss';
 
-const New = () => {
+const Login = () => {
     return (
         <div>
             
@@ -8,4 +9,4 @@ const New = () => {
     );
 };
 
-export default New;
+export default Login;
