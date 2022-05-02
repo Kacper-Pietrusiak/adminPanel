@@ -25,14 +25,15 @@ const Sidebar = () => {
                 <ul>
                     <p className="title">Main:</p>
                     <li><DashboardIcon className="icon"/><span>Dashboard</span></li>
-                    <p className="title">Useful links:</p>
+                    <p className="title">Lists:</p>
                     <li><GroupIcon className="icon"/><span>Users</span></li>
                     <li><CategoryIcon className="icon"/><span>Products</span></li>
                     <li><ShoppingBagIcon className="icon"/><span>Orders</span></li>
                     <li><LocalShippingIcon className="icon"/><span>Delivery</span></li>
-                    <p className="title">Service:</p>
+                    <p className="title">Useful:</p>
                     <li><QueryStatsIcon className="icon"/><span>Stats</span></li>
                     <li><NotificationsIcon className="icon"/><span>Notifications</span></li>
+                    <p className="title">Service:</p>
                     <li><HealthAndSafetyIcon className="icon"/><span>System Health</span></li>
                     <li><AddToQueueIcon className="icon"/><span>Logs</span></li>
                     <li><SettingsIcon className="icon"/><span>Settings</span></li>
