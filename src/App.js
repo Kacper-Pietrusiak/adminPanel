@@ -4,6 +4,7 @@ import Login from "./components/views/login/Login";
 import List from "./components/views/list/List";
 import Single from "./components/views/single/Single";
 import New from "./components/views/new/New";
+import './app.scss'
 
 function App() {
     return (
