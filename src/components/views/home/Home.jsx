@@ -7,6 +7,8 @@ import MonetizationOnIcon from '@mui/icons-material/MonetizationOn';
 import AccountBalanceWalletIcon from '@mui/icons-material/AccountBalanceWallet';
 import PersonIcon from '@mui/icons-material/Person';
 import ShoppingCartIcon from '@mui/icons-material/ShoppingCart';
+import Featured from "../../common/featured/Featured";
+import Chart from "../../common/chart/Chart";
 
 
 const Home = () => {
@@ -28,6 +30,10 @@ const Home = () => {
                     <Widget title='BALANCE' isMoney={true} link='See details'
                             icon={<AccountBalanceWalletIcon style={{background: "red"}} className='icon'/>}
                             value='12332' percentage='13'/>
+                </div>
+                <div className="charts">
+                    <Featured/>
+                    <Chart/>
                 </div>
             </div>
         </div>
