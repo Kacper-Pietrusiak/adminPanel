@@ -9,6 +9,7 @@ import PersonIcon from '@mui/icons-material/Person';
 import ShoppingCartIcon from '@mui/icons-material/ShoppingCart';
 import Featured from "../../common/featured/Featured";
 import Chart from "../../common/chart/Chart";
+import Tab from "../../common/table/Table";
 
 
 const Home = () => {
@@ -33,7 +34,11 @@ const Home = () => {
                 </div>
                 <div className="charts">
                     <Featured/>
-                    <Chart/>
+                    <Chart title="Last 6 Months (Revenue)"/>
+                </div>
+                <div className="listContainer">
+                    <div className="listTitle">Latest Transactions</div>
+                    <Tab/>
                 </div>
             </div>
         </div>
